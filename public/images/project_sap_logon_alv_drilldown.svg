@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sapGuiTop2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Frame -->
+  <rect width="1200" height="700" rx="12" fill="#070A12" />
+  <rect x="0.5" y="0.5" width="1199" height="699" rx="11.5" fill="none" stroke="#334155" stroke-width="1" />
+
+  <!-- Window Header -->
+  <rect x="0" y="0" width="1200" height="42" fill="url(#sapGuiTop2)" />
+  <circle cx="20" cy="21" r="5" fill="#EF4444" />
+  <circle cx="36" cy="21" r="5" fill="#F59E0B" />
+  <circle cx="52" cy="21" r="5" fill="#10B981" />
+  <text x="75" y="26" fill="#F8FAFC" font-family="'Inter', sans-serif" font-size="12" font-weight="700">
+    SAP GUI 7.70 • [S4H/100] • Drill-Down: Line Items for Sales Order #0005001284
+  </text>
+  <rect x="1000" y="9" width="180" height="24" rx="4" fill="#10B981" fill-opacity="0.2" stroke="#10B981" stroke-width="0.8" />
+  <text x="1090" y="25" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold" text-anchor="middle">
+    ALV Interactive Event (&amp;IC1)
+  </text>
+
+  <!-- Sales Order Header Details Ribbon -->
+  <rect x="20" y="52" width="1160" height="75" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+  <g transform="translate(40, 78)">
+    <text x="0" y="0" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">Selected Sales Order (VBELN):</text>
+    <text x="0" y="22" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="bold">0005001284</text>
+
+    <text x="240" y="0" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">Customer / Sold-To Party:</text>
+    <text x="240" y="22" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="13" font-weight="600">Apex Automotive (CUST-104)</text>
+
+    <text x="560" y="0" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">Plant:</text>
+    <text x="560" y="22" fill="#FCD34D" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600">1000 (Mumbai Plant)</text>
+
+    <text x="780" y="0" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">Order Net Total:</text>
+    <text x="780" y="22" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="bold">142,500.00 INR</text>
+
+    <text x="980" y="0" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">Trigger Event:</text>
+    <text x="980" y="22" fill="#C4B5FD" font-family="'JetBrains Mono', monospace" font-size="12">Double-Click (&amp;IC1)</text>
+  </g>
+
+  <!-- Items Table Area (Custom DDIC table ZSO_ITEM) -->
+  <rect x="20" y="137" width="1160" height="260" rx="6" fill="#0D1322" stroke="#1E293B" stroke-width="1" />
+  
+  <!-- Table Header -->
+  <rect x="20" y="137" width="1160" height="34" rx="6" fill="#162035" />
+  <line x1="20" y1="171" x2="1180" y2="171" stroke="#334155" stroke-width="1" />
+  <g transform="translate(40, 159)" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#94A3B8">
+    <text x="0" y="0">ITEM (POSNR)</text>
+    <text x="120" y="0">MATERIAL NUMBER (MATNR)</text>
+    <text x="360" y="0">MATERIAL DESCRIPTION</text>
+    <text x="640" y="0">ORDER QTY</text>
+    <text x="770" y="0">PLANT</text>
+    <text x="880" y="0">UNIT PRICE</text>
+    <text x="1010" y="0">NET VALUE</text>
+  </g>
+
+  <!-- Item Row 10 -->
+  <line x1="20" y1="215" x2="1180" y2="215" stroke="#1E293B" stroke-width="1" />
+  <g transform="translate(40, 201)" font-family="'JetBrains Mono', monospace" font-size="12">
+    <text x="0" y="0" fill="#38BDF8" font-weight="bold">000010</text>
+    <text x="120" y="0" fill="#E2E8F0">MAT-ECU-902</text>
+    <text x="360" y="0" fill="#F8FAFC" font-family="'Inter', sans-serif">Automotive Electronic Control Unit</text>
+    <text x="640" y="0" fill="#E2E8F0">50 PC</text>
+    <text x="770" y="0" fill="#FCD34D">1000</text>
+    <text x="880" y="0" fill="#E2E8F0">1,200.00</text>
+    <text x="1010" y="0" fill="#38BDF8" font-weight="bold">60,000.00 INR</text>
+  </g>
+
+  <!-- Item Row 20 -->
+  <line x1="20" y1="258" x2="1180" y2="258" stroke="#1E293B" stroke-width="1" />
+  <g transform="translate(40, 244)" font-family="'JetBrains Mono', monospace" font-size="12">
+    <text x="0" y="0" fill="#38BDF8" font-weight="bold">000020</text>
+    <text x="120" y="0" fill="#E2E8F0">MAT-SNS-401</text>
+    <text x="360" y="0" fill="#F8FAFC" font-family="'Inter', sans-serif">Optical Proximity Sensor Harness</text>
+    <text x="640" y="0" fill="#E2E8F0">100 PC</text>
+    <text x="770" y="0" fill="#FCD34D">1000</text>
+    <text x="880" y="0" fill="#E2E8F0">450.00</text>
+    <text x="1010" y="0" fill="#38BDF8" font-weight="bold">45,000.00 INR</text>
+  </g>
+
+  <!-- Item Row 30 -->
+  <line x1="20" y1="301" x2="1180" y2="301" stroke="#1E293B" stroke-width="1" />
+  <g transform="translate(40, 287)" font-family="'JetBrains Mono', monospace" font-size="12">
+    <text x="0" y="0" fill="#38BDF8" font-weight="bold">000030</text>
+    <text x="120" y="0" fill="#E2E8F0">MAT-BRK-108</text>
+    <text x="360" y="0" fill="#F8FAFC" font-family="'Inter', sans-serif">Hydraulic Brake Assembly</text>
+    <text x="640" y="0" fill="#E2E8F0">25 PC</text>
+    <text x="770" y="0" fill="#FCD34D">1000</text>
+    <text x="880" y="0" fill="#E2E8F0">1,500.00</text>
+    <text x="1010" y="0" fill="#38BDF8" font-weight="bold">37,500.00 INR</text>
+  </g>
+
+  <!-- Bottom Integrated Panel: ABAP Debugger & Breakpoint Verification (/h Mode) -->
+  <rect x="20" y="410" width="1160" height="245" rx="6" fill="#0A0E1A" stroke="#8B5CF6" stroke-width="1.2" />
+  
+  <rect x="20" y="410" width="1160" height="32" rx="6" fill="#191530" />
+  <text x="40" y="431" fill="#C4B5FD" font-family="'Inter', sans-serif" font-size="12" font-weight="bold">
+    🐞 ABAP Debugger Active (SE38 • Breakpoint in USER_COMMAND Subroutine)
+  </text>
+  <text x="960" y="431" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11">
+    Step by step (F5) • Execute (F6) • Return (F7)
+  </text>
+
+  <!-- Code Line with Yellow Debugger Arrow -->
+  <g transform="translate(40, 465)" font-family="'JetBrains Mono', monospace" font-size="11">
+    <rect x="-10" y="-14" width="700" height="22" fill="#FBBF24" fill-opacity="0.15" />
+    <text x="0" y="0" fill="#FBBF24" font-weight="bold">➡ [Line 142]  SELECT * FROM zso_item INTO TABLE @gt_item WHERE vbeln = @lv_selected_vbeln.</text>
+    <text x="0" y="24" fill="#9CDCFE">   [Line 143]  IF sy-subrc = 0.</text>
+    <text x="0" y="48" fill="#D4D4D4">   [Line 144]    PERFORM display_item_alv.</text>
+    <text x="0" y="72" fill="#9CDCFE">   [Line 145]  ELSE.</text>
+    <text x="0" y="96" fill="#CE9178">   [Line 146]    MESSAGE 'No items found for sales order' TYPE 'I'.</text>
+    <text x="0" y="120" fill="#9CDCFE">   [Line 147]  ENDIF.</text>
+  </g>
+
+  <!-- Variable Inspector in Debugger -->
+  <rect x="760" y="450" width="400" height="190" rx="4" fill="#111827" stroke="#374151" stroke-width="1" />
+  <text x="780" y="475" fill="#38BDF8" font-family="'Inter', sans-serif" font-size="11" font-weight="bold">VARIABLES WATCHLIST</text>
+  
+  <g transform="translate(780, 500)" font-family="'JetBrains Mono', monospace" font-size="11">
+    <text x="0" y="0" fill="#94A3B8">lv_selected_vbeln:</text>
+    <text x="170" y="0" fill="#34D399" font-weight="bold">'0005001284'</text>
+
+    <text x="0" y="24" fill="#94A3B8">sy-ucomm:</text>
+    <text x="170" y="24" fill="#FCD34D" font-weight="bold">'&amp;IC1' (Double-Click)</text>
+
+    <text x="0" y="48" fill="#94A3B8">sy-subrc:</text>
+    <text x="170" y="48" fill="#34D399" font-weight="bold">0 (Success)</text>
+
+    <text x="0" y="72" fill="#94A3B8">lines(gt_item):</text>
+    <text x="170" y="72" fill="#38BDF8" font-weight="bold">3 Records</text>
+
+    <text x="0" y="96" fill="#94A3B8">s_werks-low:</text>
+    <text x="170" y="96" fill="#E2E8F0">'1000'</text>
+  </g>
+
+  <!-- SAP GUI Status Bar -->
+  <rect x="0" y="665" width="1200" height="35" fill="#141E33" stroke="#334155" stroke-width="0.8" />
+  <circle cx="25" cy="682" r="5" fill="#10B981" />
+  <text x="38" y="686" fill="#34D399" font-family="'Inter', sans-serif" font-size="11" font-weight="600">
+    ✔ Line items successfully populated in ALV. Debugger session active.
+  </text>
+</svg>

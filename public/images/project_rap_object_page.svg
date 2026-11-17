@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="opHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Frame -->
+  <rect width="1200" height="700" rx="16" fill="#090D16" />
+  <rect x="0.5" y="0.5" width="1199" height="699" rx="15.5" fill="none" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Breadcrumb & Top Bar -->
+  <rect x="0" y="0" width="1200" height="50" fill="#0F172A" />
+  <text x="30" y="30" fill="#0070F2" font-family="'Inter', sans-serif" font-size="12" font-weight="600">&lt; Travel Bookings</text>
+  <text x="145" y="30" fill="#64748B" font-family="'Inter', sans-serif" font-size="12">/</text>
+  <text x="160" y="30" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="12">TRV-0004128</text>
+
+  <!-- Action buttons on Object Page -->
+  <rect x="880" y="12" width="90" height="26" rx="4" fill="#10B981" />
+  <text x="925" y="29" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">Accept Travel</text>
+  <rect x="980" y="12" width="90" height="26" rx="4" fill="#EF4444" />
+  <text x="1025" y="29" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">Reject Travel</text>
+  <rect x="1080" y="12" width="90" height="26" rx="4" fill="#0070F2" />
+  <text x="1125" y="29" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">Edit Travel</text>
+
+  <!-- Header Facet / Key Info Banner -->
+  <rect x="30" y="65" width="1140" height="135" rx="8" fill="url(#opHeader)" stroke="#334155" stroke-width="1" />
+  <text x="50" y="100" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="700">Travel TRV-0004128</text>
+  <text x="50" y="122" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="13">Agency: 070001 (Fly Emirates) • Customer: Buchanan Travel (CUST-0091)</text>
+
+  <!-- Status Chip -->
+  <rect x="50" y="140" width="100" height="24" rx="12" fill="#065F46" stroke="#10B981" stroke-width="1" />
+  <text x="100" y="156" fill="#34D399" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">● Accepted</text>
+
+  <!-- Metrics right -->
+  <g transform="translate(750, 85)">
+    <text x="0" y="20" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12">Total Price (Aggregated)</text>
+    <text x="0" y="55" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="26" font-weight="700">2,450.00 EUR</text>
+    <text x="210" y="20" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12">Travel Dates</text>
+    <text x="210" y="45" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="13">2025-06-10 → 2025-06-25</text>
+    <text x="210" y="65" fill="#10B981" font-family="'Inter', sans-serif" font-size="11">15 Days Duration</text>
+  </g>
+
+  <!-- Child Entity Section: Bookings & Supplements -->
+  <rect x="30" y="220" width="1140" height="440" rx="8" fill="#111827" stroke="#1F2937" stroke-width="1" />
+  <rect x="30" y="220" width="1140" height="45" rx="8" fill="#1F2937" />
+  <text x="50" y="248" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600">Child Entity: Bookings (_Booking composition)</text>
+  <text x="380" y="248" fill="#9CA3AF" font-family="'JetBrains Mono', monospace" font-size="12">2 Flight Items Attached</text>
+
+  <!-- Booking 1 -->
+  <rect x="50" y="280" width="1100" height="150" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <text x="70" y="310" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">Booking #0010 — Flight LH-0400 (Frankfurt FRA → New York JFK)</text>
+  <text x="70" y="335" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12">Carrier: Lufthansa • Connection: 0400 • Flight Date: 2025-06-10</text>
+  <text x="70" y="360" fill="#CBD5E1" font-family="'Inter', sans-serif" font-size="12">Flight Price: <tspan font-family="'JetBrains Mono', monospace" fill="#FFFFFF">1,200.00 EUR</tspan> | Supplements: VIP Lounge (50.00 EUR)</text>
+  
+  <rect x="940" y="300" width="90" height="24" rx="12" fill="#065F46" stroke="#10B981" stroke-width="1" />
+  <text x="985" y="316" fill="#34D399" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">Confirmed</text>
+
+  <!-- Booking 2 -->
+  <rect x="50" y="450" width="1100" height="150" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <text x="70" y="480" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">Booking #0020 — Flight LH-0401 (New York JFK → Frankfurt FRA)</text>
+  <text x="70" y="505" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12">Carrier: Lufthansa • Connection: 0401 • Flight Date: 2025-06-25</text>
+  <text x="70" y="530" fill="#CBD5E1" font-family="'Inter', sans-serif" font-size="12">Flight Price: <tspan font-family="'JetBrains Mono', monospace" fill="#FFFFFF">1,200.00 EUR</tspan> | Supplements: Extra Baggage (0.00 EUR)</text>
+
+  <rect x="940" y="470" width="90" height="24" rx="12" fill="#065F46" stroke="#10B981" stroke-width="1" />
+  <text x="985" y="486" fill="#34D399" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">Confirmed</text>
+</svg>

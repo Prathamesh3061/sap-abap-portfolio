@@ -1,0 +1,119 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Length 2100 >>
+stream
+BT
+/F1 18 Tf
+50 745 Td
+(PRATHAMESH SAWANT) Tj
+/F1 11 Tf
+0 -17 Td
+(SAP Certified ABAP Developer | RAP | S/4HANA | CDS | OData) Tj
+/F2 9.5 Tf
+0 -15 Td
+(Email: prathameshsawant201@gmail.com  |  Phone: 8856008281  |  LinkedIn: prathamesh-sawant211  |  GitHub: Prathamesh3061) Tj
+0 -20 Td
+/F1 11.5 Tf
+(CAREER OBJECTIVE) Tj
+/F2 9 Tf
+0 -13 Td
+(Aspiring SAP ABAP Developer with SAP ABAP Cloud certification, seeking a role in a progressive organization that provides) Tj
+0 -11 Td
+(opportunities to learn and grow. I want to apply my skills in ABAP, RAP and CDS effectively on real S/4HANA projects.) Tj
+0 -18 Td
+/F1 11.5 Tf
+(TECHNICAL SKILLS) Tj
+/F2 9 Tf
+0 -13 Td
+(S/4HANA & Modern ABAP: ABAP Objects, CDS, RAP, OData, SAP Fiori Elements, ABAP Development Tools [ADT], SAP HANA) Tj
+0 -11 Td
+(Core ABAP: ABAP Dictionary [DDIC], Open SQL, Internal Tables, ALV Reports, Classical Reports, Smart Forms, Adobe Forms) Tj
+0 -11 Td
+(SAP Development: Function Modules, BAPIs, BADIs, Enhancements  |  Tools: SAP GUI, Eclipse, Git/GitHub, Postman, VS Code) Tj
+0 -18 Td
+/F1 11.5 Tf
+(PROFESSIONAL EXPERIENCE) Tj
+/F1 9.5 Tf
+0 -13 Td
+(SAP ABAP S4/Hana Trainee - Utkarsh Foundation [Alibag, Maharashtra]) Tj
+/F2 8.5 Tf
+0 -10 Td
+(July 2026 - September 2026  |  3-month intensive training on Core ABAP development, DDIC, Open SQL, ALV Reports, BAPIs, BADIs) Tj
+/F1 9.5 Tf
+0 -14 Td
+(Frontend Developer - Bluestock Fintech [Remote]) Tj
+/F2 8.5 Tf
+0 -10 Td
+(October 2025 - December 2025  |  Implemented frontend features, resolved UI issues, functional testing and Git version control) Tj
+0 -18 Td
+/F1 11.5 Tf
+(PROJECTS) Tj
+/F1 9.5 Tf
+0 -13 Td
+(1. Employee Leave Request Management System | SAP RAP, SAP ABAP Cloud, Fiori Elements, OData [Eclipse ADT]) Tj
+/F2 8.5 Tf
+0 -11 Td
+(- Designed end-to-end transactional Leave Management application using SAP RAP on SAP BTP / S/4HANA in Eclipse ADT.) Tj
+0 -10 Td
+(- Developed CDS View Entities with parent-child compositions linking employee master to transactional leave requests.) Tj
+0 -10 Td
+(- Defined Behavior Definitions [BDEF] with draft enablement, custom actions for leave approval/rejection, and full CRUD.) Tj
+0 -10 Td
+(- Implemented Determinations to auto-calculate leave duration and Validations for date ranges and remaining balances.) Tj
+/F1 9.5 Tf
+0 -14 Td
+(2. Sales Order Management System | SAP ABAP, Open SQL, ALV, DDIC [SAP Logon / SAP GUI]) Tj
+/F2 8.5 Tf
+0 -11 Td
+(- Developed an ALV-based sales order report to display sales order header and item information from custom DDIC tables.) Tj
+0 -10 Td
+(- Created two custom DDIC tables for sales order header and item data with appropriate keys and foreign key references.) Tj
+0 -10 Td
+(- Created a selection screen to filter sales orders by date range and plant using SELECT-OPTIONS with input validation.) Tj
+0 -10 Td
+(- Implemented double-click functionality [sy-ucomm &IC1] to drill down to line-item details. Tested with ABAP debugger.) Tj
+0 -18 Td
+/F1 11.5 Tf
+(EDUCATION & CERTIFICATION) Tj
+/F2 8.5 Tf
+0 -12 Td
+(B.Tech in Computer Science and Engineering - Padmabhooshan Vasantraodada Patil Institute of Technology [Sangli, CGPA: 7.23, June 2025]) Tj
+0 -11 Td
+(Higher Education - 12th: Laxmanrao Kirloskar Vidyamandir and Junior College [Palus, 88%, June 2020 - May 2021]) Tj
+0 -11 Td
+(Secondary Education - 10th: Babasaheb Patil Vidyamandir [Yelavi, 84.60%, June 2018 - May 2019]) Tj
+0 -13 Td
+/F1 9.5 Tf
+(Certification: SAP Certified Associate - Back-End Developer - ABAP Cloud [Official SAP Certification - September 2026]) Tj
+ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000244 00000 n 
+0000000318 00000 n 
+0000000387 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2538
+%%EOF

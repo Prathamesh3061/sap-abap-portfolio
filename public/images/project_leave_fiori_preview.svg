@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="fioriBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#003566" />
+      <stop offset="100%" stop-color="#001d3d" />
+    </linearGradient>
+    <linearGradient id="sapBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0070F2" />
+      <stop offset="100%" stop-color="#0052b4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Window Frame -->
+  <rect width="1200" height="700" rx="16" fill="#0A0E1A" />
+  <rect x="0.5" y="0.5" width="1199" height="699" rx="15.5" fill="none" stroke="#1E293B" stroke-width="1" />
+
+  <!-- SAP Fiori Launchpad Shell Bar -->
+  <rect x="0" y="0" width="1200" height="52" fill="url(#fioriBar)" />
+  <rect x="24" y="14" width="48" height="24" rx="4" fill="#0070F2" />
+  <text x="48" y="31" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="13" font-weight="900" text-anchor="middle">SAP</text>
+  <text x="86" y="32" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="600">Employee Leave Request Management</text>
+  
+  <rect x="420" y="16" width="170" height="20" rx="10" fill="#0070F2" fill-opacity="0.25" stroke="#0070F2" stroke-width="0.8" />
+  <text x="505" y="30" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="500" text-anchor="middle">SAP RAP • Fiori Elements</text>
+  
+  <!-- User Profile -->
+  <circle cx="1160" cy="26" r="14" fill="#1E293B" stroke="#0070F2" stroke-width="1.5" />
+  <text x="1160" y="30" fill="#E2E8F0" font-family="'Inter', sans-serif" font-size="11" font-weight="bold" text-anchor="middle">PS</text>
+
+  <!-- Filter Bar (SmartFilterBar) -->
+  <rect x="24" y="68" width="1152" height="95" rx="8" fill="#111827" stroke="#1F2937" stroke-width="1" />
+  <text x="44" y="93" fill="#9CA3AF" font-family="'Inter', sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">FILTERS (CDS CONSUMPTION VIEW: ZC_EmployeeLeave_M)</text>
+
+  <!-- Filter 1: Employee ID -->
+  <text x="44" y="118" fill="#6B7280" font-family="'Inter', sans-serif" font-size="11">Employee ID</text>
+  <rect x="44" y="126" width="170" height="28" rx="4" fill="#1F2937" stroke="#374151" stroke-width="1" />
+  <text x="56" y="145" fill="#F3F4F6" font-family="'JetBrains Mono', monospace" font-size="12">EMP-00142 (Active)</text>
+
+  <!-- Filter 2: Leave Type -->
+  <text x="234" y="118" fill="#6B7280" font-family="'Inter', sans-serif" font-size="11">Leave Type</text>
+  <rect x="234" y="126" width="160" height="28" rx="4" fill="#1F2937" stroke="#374151" stroke-width="1" />
+  <text x="246" y="145" fill="#D1D5DB" font-family="'Inter', sans-serif" font-size="12">All Types (Annual/Sick)</text>
+
+  <!-- Filter 3: Approval Status -->
+  <text x="414" y="118" fill="#6B7280" font-family="'Inter', sans-serif" font-size="11">Approval Status</text>
+  <rect x="414" y="126" width="160" height="28" rx="4" fill="#1F2937" stroke="#374151" stroke-width="1" />
+  <text x="426" y="145" fill="#FCD34D" font-family="'Inter', sans-serif" font-size="12">⏳ Pending Approval</text>
+
+  <!-- Go Button -->
+  <rect x="1096" y="126" width="60" height="28" rx="4" fill="url(#sapBlue)" />
+  <text x="1126" y="144" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="12" font-weight="600" text-anchor="middle">Go</text>
+
+  <!-- Table Container (SmartTable) -->
+  <rect x="24" y="175" width="1152" height="500" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+  
+  <!-- Table Header Bar & RAP Actions -->
+  <rect x="24" y="175" width="1152" height="52" rx="8" fill="#172239" />
+  <text x="44" y="206" fill="#F8FAFC" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="600">Leave Requests (RAP Entity: ZI_EmployeeLeave_M)</text>
+
+  <!-- RAP Instance Actions Buttons -->
+  <rect x="680" y="187" width="100" height="28" rx="4" fill="#10B981" fill-opacity="0.25" stroke="#10B981" stroke-width="1" />
+  <text x="730" y="205" fill="#34D399" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">✓ Approve Leave</text>
+
+  <rect x="790" y="187" width="95" height="28" rx="4" fill="#EF4444" fill-opacity="0.25" stroke="#EF4444" stroke-width="1" />
+  <text x="837" y="205" fill="#F87171" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">✕ Reject Leave</text>
+
+  <rect x="895" y="187" width="60" height="28" rx="4" fill="#1E293B" stroke="#475569" stroke-width="1" />
+  <text x="925" y="205" fill="#E2E8F0" font-family="'Inter', sans-serif" font-size="11" text-anchor="middle">Delete</text>
+
+  <rect x="965" y="187" width="190" height="28" rx="4" fill="url(#sapBlue)" />
+  <text x="1060" y="205" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">+ Create Leave Request (Draft)</text>
+
+  <!-- Column Headers -->
+  <line x1="24" y1="227" x2="1176" y2="227" stroke="#334155" stroke-width="1" />
+  <text x="50" y="248" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12" font-weight="600">REQUEST ID</text>
+  <text x="170" y="248" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12" font-weight="600">EMPLOYEE NAME</text>
+  <text x="350" y="248" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12" font-weight="600">LEAVE TYPE</text>
+  <text x="490" y="248" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12" font-weight="600">LEAVE PERIOD</text>
+  <text x="690" y="248" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12" font-weight="600">DAYS (CALCULATED)</text>
+  <text x="870" y="248" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12" font-weight="600">STATUS (BDEF)</text>
+  <text x="1050" y="248" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12" font-weight="600">ACTIONS</text>
+
+  <!-- Row 1: Selected / In Process -->
+  <rect x="24" y="260" width="1152" height="48" fill="#1E293B" fill-opacity="0.8" />
+  <line x1="24" y1="308" x2="1176" y2="308" stroke="#334155" stroke-width="0.5" />
+  <circle cx="36" cy="284" r="5" fill="#0070F2" />
+  <text x="50" y="288" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600">LR-2026-0041</text>
+  <text x="170" y="288" fill="#F8FAFC" font-family="'Inter', sans-serif" font-size="12">Prathamesh Sawant (EMP-00142)</text>
+  <text x="350" y="288" fill="#E2E8F0" font-family="'Inter', sans-serif" font-size="12">Annual Vacation Leave</text>
+  <text x="490" y="288" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="12">2026-10-12 → 2026-10-16</text>
+  <text x="690" y="288" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">5 Working Days</text>
+  <rect x="870" y="274" width="115" height="22" rx="11" fill="#854D0E" fill-opacity="0.3" stroke="#F59E0B" stroke-width="1" />
+  <text x="927" y="289" fill="#FCD34D" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">⏳ Pending Approval</text>
+  <text x="1050" y="288" fill="#0070F2" font-family="'Inter', sans-serif" font-size="12" font-weight="600">View Object Page →</text>
+
+  <!-- Row 2: Approved -->
+  <line x1="24" y1="356" x2="1176" y2="356" stroke="#334155" stroke-width="0.5" />
+  <text x="50" y="336" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600">LR-2026-0038</text>
+  <text x="170" y="336" fill="#F8FAFC" font-family="'Inter', sans-serif" font-size="12">Aarav Sharma (EMP-00118)</text>
+  <text x="350" y="336" fill="#E2E8F0" font-family="'Inter', sans-serif" font-size="12">Sick Leave (Medical Certificate)</text>
+  <text x="490" y="336" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="12">2026-09-01 → 2026-09-03</text>
+  <text x="690" y="336" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="12">3 Days</text>
+  <rect x="870" y="322" width="95" height="22" rx="11" fill="#065F46" fill-opacity="0.3" stroke="#10B981" stroke-width="1" />
+  <text x="917" y="337" fill="#34D399" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">✓ Approved</text>
+  <text x="1050" y="336" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12">View Object Page →</text>
+
+  <!-- Row 3: Rejected -->
+  <line x1="24" y1="404" x2="1176" y2="404" stroke="#334155" stroke-width="0.5" />
+  <text x="50" y="384" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600">LR-2026-0035</text>
+  <text x="170" y="384" fill="#F8FAFC" font-family="'Inter', sans-serif" font-size="12">Neha Deshmukh (EMP-00204)</text>
+  <text x="350" y="384" fill="#E2E8F0" font-family="'Inter', sans-serif" font-size="12">Casual Leave</text>
+  <text x="490" y="384" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="12">2026-08-14 → 2026-08-20</text>
+  <text x="690" y="384" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="12">6 Days (Insufficient Balance)</text>
+  <rect x="870" y="370" width="95" height="22" rx="11" fill="#7F1D1D" fill-opacity="0.3" stroke="#EF4444" stroke-width="1" />
+  <text x="917" y="385" fill="#F87171" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">✕ Rejected</text>
+  <text x="1050" y="384" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12">View Object Page →</text>
+
+  <!-- Technical Callout: Determinations & Validations in RAP -->
+  <g transform="translate(44, 435)">
+    <rect width="1112" height="220" rx="8" fill="#0A0E1A" stroke="#0070F2" stroke-width="1.2" />
+    <text x="24" y="28" fill="#38BDF8" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700">BUSINESS LOGIC &amp; RAP ARCHITECTURE HIGHLIGHTS</text>
+
+    <!-- Block 1 -->
+    <rect x="24" y="45" width="345" height="150" rx="6" fill="#162035" stroke="#334155" stroke-width="1" />
+    <text x="40" y="70" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">1. CDS Data Modeling &amp; Compositions</text>
+    <text x="40" y="92" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">• Root entity ZI_EmployeeLeave_M</text>
+    <text x="40" y="110" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">• Association to employee master (EMP_MASTER)</text>
+    <text x="40" y="128" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">• Parent-child composition for audit history</text>
+    <text x="40" y="150" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="11">Clean Core CDS View Entities</text>
+
+    <!-- Block 2 -->
+    <rect x="385" y="45" width="345" height="150" rx="6" fill="#162035" stroke="#334155" stroke-width="1" />
+    <text x="401" y="70" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">2. Behavior Definitions (BDEF)</text>
+    <text x="401" y="92" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">• Managed runtime with draft enablement</text>
+    <text x="401" y="110" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">• Custom actions: 'approveLeave', 'rejectLeave'</text>
+    <text x="401" y="128" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">• Instance dynamic feature control for buttons</text>
+    <text x="401" y="150" fill="#10B981" font-family="'JetBrains Mono', monospace" font-size="11">Atomic Transactional Runtime</text>
+
+    <!-- Block 3 -->
+    <rect x="745" y="45" width="345" height="150" rx="6" fill="#162035" stroke="#334155" stroke-width="1" />
+    <text x="761" y="70" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">3. Determinations &amp; Validations</text>
+    <text x="761" y="92" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">• Determination: auto-calculate duration on date edit</text>
+    <text x="761" y="110" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">• Validation: check EndDate &gt;= StartDate</text>
+    <text x="761" y="128" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">• Validation: verify remaining leave balance</text>
+    <text x="761" y="150" fill="#A855F7" font-family="'JetBrains Mono', monospace" font-size="11">Instant EML Feedback to UI</text>
+  </g>
+</svg>

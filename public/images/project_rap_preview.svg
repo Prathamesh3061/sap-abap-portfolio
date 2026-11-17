@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#003566" />
+      <stop offset="100%" stop-color="#001d3d" />
+    </linearGradient>
+    <linearGradient id="btnGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0070F2" />
+      <stop offset="100%" stop-color="#0052b4" />
+    </linearGradient>
+    <filter id="subtleDrop" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Window Shell -->
+  <rect width="1200" height="700" rx="16" fill="#0A0E1A" />
+  <rect x="0.5" y="0.5" width="1199" height="699" rx="15.5" fill="none" stroke="#1E293B" stroke-width="1" />
+
+  <!-- SAP Fiori Shell Bar -->
+  <rect x="0" y="0" width="1200" height="52" fill="url(#headerGrad)" />
+  <!-- SAP Logo Icon -->
+  <rect x="24" y="14" width="48" height="24" rx="4" fill="#0070F2" />
+  <text x="48" y="31" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="13" font-weight="800" text-anchor="middle">SAP</text>
+  <!-- App Title -->
+  <text x="86" y="32" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="600">Flight Booking Management</text>
+  <rect x="330" y="16" width="130" height="20" rx="10" fill="#0070F2" fill-opacity="0.25" stroke="#0070F2" stroke-width="0.8" />
+  <text x="395" y="30" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="500" text-anchor="middle">SAP RAP Managed</text>
+  <!-- User Profile in Shell Bar -->
+  <circle cx="1160" cy="26" r="14" fill="#1E293B" stroke="#0070F2" stroke-width="1.5" />
+  <text x="1160" y="30" fill="#E2E8F0" font-family="'Inter', sans-serif" font-size="11" font-weight="bold" text-anchor="middle">PS</text>
+
+  <!-- Filter Bar (Fiori SmartFilterBar) -->
+  <rect x="24" y="70" width="1152" height="100" rx="8" fill="#111827" stroke="#1F2937" stroke-width="1" />
+  <text x="44" y="96" fill="#9CA3AF" font-family="'Inter', sans-serif" font-size="12" font-weight="600" letter-spacing="0.5">FILTERS (CDS SELECTION)</text>
+  
+  <!-- Filter 1: Agency ID -->
+  <text x="44" y="125" fill="#6B7280" font-family="'Inter', sans-serif" font-size="11">Agency ID</text>
+  <rect x="44" y="133" width="180" height="28" rx="4" fill="#1F2937" stroke="#374151" stroke-width="1" />
+  <text x="56" y="152" fill="#F3F4F6" font-family="'JetBrains Mono', monospace" font-size="12">070001 (Fly Emirates)</text>
+
+  <!-- Filter 2: Customer ID -->
+  <text x="244" y="125" fill="#6B7280" font-family="'Inter', sans-serif" font-size="11">Customer ID</text>
+  <rect x="244" y="133" width="160" height="28" rx="4" fill="#1F2937" stroke="#374151" stroke-width="1" />
+  <text x="256" y="152" fill="#9CA3AF" font-family="'JetBrains Mono', monospace" font-size="12">All Customers</text>
+
+  <!-- Filter 3: Travel Status -->
+  <text x="424" y="125" fill="#6B7280" font-family="'Inter', sans-serif" font-size="11">Booking Status</text>
+  <rect x="424" y="133" width="150" height="28" rx="4" fill="#1F2937" stroke="#374151" stroke-width="1" />
+  <text x="436" y="152" fill="#10B981" font-family="'Inter', sans-serif" font-size="12">● Accepted</text>
+
+  <!-- Filter Buttons -->
+  <rect x="1010" y="133" width="76" height="28" rx="4" fill="#1F2937" stroke="#374151" stroke-width="1" />
+  <text x="1048" y="151" fill="#D1D5DB" font-family="'Inter', sans-serif" font-size="12" font-weight="500" text-anchor="middle">Adapt</text>
+  <rect x="1096" y="133" width="60" height="28" rx="4" fill="url(#btnGrad)" />
+  <text x="1126" y="151" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="12" font-weight="600" text-anchor="middle">Go</text>
+
+  <!-- Table Container (SmartTable / Fiori List Report) -->
+  <rect x="24" y="185" width="1152" height="490" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+  
+  <!-- Table Header Bar & RAP Actions -->
+  <rect x="24" y="185" width="1152" height="52" rx="8" fill="#172239" />
+  <text x="44" y="217" fill="#F8FAFC" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="600">Travel Bookings (CDS View: ZI_Travel_M)</text>
+  <text x="360" y="216" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="12">(248 Total Records)</text>
+
+  <!-- RAP Action Buttons on Toolbar -->
+  <rect x="730" y="197" width="80" height="28" rx="4" fill="#10B981" fill-opacity="0.2" stroke="#10B981" stroke-width="1" />
+  <text x="770" y="215" fill="#34D399" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">Accept Travel</text>
+
+  <rect x="820" y="197" width="80" height="28" rx="4" fill="#EF4444" fill-opacity="0.2" stroke="#EF4444" stroke-width="1" />
+  <text x="860" y="215" fill="#F87171" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">Reject Travel</text>
+
+  <rect x="910" y="197" width="60" height="28" rx="4" fill="#1E293B" stroke="#475569" stroke-width="1" />
+  <text x="940" y="215" fill="#E2E8F0" font-family="'Inter', sans-serif" font-size="11" text-anchor="middle">Create</text>
+
+  <rect x="980" y="197" width="60" height="28" rx="4" fill="#1E293B" stroke="#475569" stroke-width="1" />
+  <text x="1010" y="215" fill="#E2E8F0" font-family="'Inter', sans-serif" font-size="11" text-anchor="middle">Delete</text>
+
+  <rect x="1050" y="197" width="110" height="28" rx="4" fill="url(#btnGrad)" />
+  <text x="1105" y="215" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">+ New Booking</text>
+
+  <!-- Table Column Headers -->
+  <line x1="24" y1="237" x2="1176" y2="237" stroke="#334155" stroke-width="1" />
+  <text x="50" y="260" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12" font-weight="600">TRAVEL ID</text>
+  <text x="160" y="260" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12" font-weight="600">AGENCY</text>
+  <text x="290" y="260" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12" font-weight="600">CUSTOMER</text>
+  <text x="450" y="260" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12" font-weight="600">TRAVEL DATES</text>
+  <text x="640" y="260" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12" font-weight="600">BOOKING FEE</text>
+  <text x="770" y="260" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12" font-weight="600">TOTAL PRICE</text>
+  <text x="910" y="260" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12" font-weight="600">STATUS (BDEF)</text>
+  <text x="1060" y="260" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12" font-weight="600">ACTION</text>
+
+  <!-- Row 1 (Selected) -->
+  <rect x="24" y="275" width="1152" height="48" fill="#1E293B" fill-opacity="0.7" />
+  <line x1="24" y1="323" x2="1176" y2="323" stroke="#334155" stroke-width="0.5" />
+  <circle cx="36" cy="299" r="6" fill="#0070F2" />
+  <text x="50" y="303" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600">TRV-0004128</text>
+  <text x="160" y="303" fill="#F1F5F9" font-family="'Inter', sans-serif" font-size="12">070001 (Fly Emirates)</text>
+  <text x="290" y="303" fill="#E2E8F0" font-family="'Inter', sans-serif" font-size="12">Buchanan Travel (CUST-0091)</text>
+  <text x="450" y="303" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="12">2025-06-10 → 2025-06-25</text>
+  <text x="640" y="303" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="12">80.00 EUR</text>
+  <text x="770" y="303" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">2,450.00 EUR</text>
+  <!-- Accepted Status Badge -->
+  <rect x="910" y="289" width="86" height="22" rx="11" fill="#065F46" fill-opacity="0.3" stroke="#10B981" stroke-width="1" />
+  <text x="953" y="304" fill="#34D399" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">✓ Accepted</text>
+  <text x="1060" y="303" fill="#0070F2" font-family="'Inter', sans-serif" font-size="12" font-weight="600">View Details →</text>
+
+  <!-- Row 2 -->
+  <line x1="24" y1="371" x2="1176" y2="371" stroke="#334155" stroke-width="0.5" />
+  <text x="50" y="351" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600">TRV-0004129</text>
+  <text x="160" y="351" fill="#F1F5F9" font-family="'Inter', sans-serif" font-size="12">070003 (Lufthansa Direct)</text>
+  <text x="290" y="351" fill="#E2E8F0" font-family="'Inter', sans-serif" font-size="12">Global Logistics Corp (CUST-0142)</text>
+  <text x="450" y="351" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="12">2025-07-01 → 2025-07-15</text>
+  <text x="640" y="351" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="12">120.00 USD</text>
+  <text x="770" y="351" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">4,190.00 USD</text>
+  <!-- Pending Status Badge -->
+  <rect x="910" y="337" width="86" height="22" rx="11" fill="#854D0E" fill-opacity="0.3" stroke="#F59E0B" stroke-width="1" />
+  <text x="953" y="352" fill="#FCD34D" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">⏳ In Process</text>
+  <text x="1060" y="351" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12">View Details →</text>
+
+  <!-- Row 3 -->
+  <line x1="24" y1="419" x2="1176" y2="419" stroke="#334155" stroke-width="0.5" />
+  <text x="50" y="399" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600">TRV-0004130</text>
+  <text x="160" y="399" fill="#F1F5F9" font-family="'Inter', sans-serif" font-size="12">070001 (Fly Emirates)</text>
+  <text x="290" y="399" fill="#E2E8F0" font-family="'Inter', sans-serif" font-size="12">Novartis Pharma (CUST-0023)</text>
+  <text x="450" y="399" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="12">2025-07-12 → 2025-07-20</text>
+  <text x="640" y="399" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="12">50.00 CHF</text>
+  <text x="770" y="399" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">1,820.00 CHF</text>
+  <!-- Accepted Status Badge -->
+  <rect x="910" y="385" width="86" height="22" rx="11" fill="#065F46" fill-opacity="0.3" stroke="#10B981" stroke-width="1" />
+  <text x="953" y="400" fill="#34D399" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">✓ Accepted</text>
+  <text x="1060" y="399" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12">View Details →</text>
+
+  <!-- Row 4 -->
+  <line x1="24" y1="467" x2="1176" y2="467" stroke="#334155" stroke-width="0.5" />
+  <text x="50" y="447" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600">TRV-0004131</text>
+  <text x="160" y="447" fill="#F1F5F9" font-family="'Inter', sans-serif" font-size="12">070008 (Singapore Air)</text>
+  <text x="290" y="447" fill="#E2E8F0" font-family="'Inter', sans-serif" font-size="12">Apex Consulting (CUST-0899)</text>
+  <text x="450" y="447" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="12">2025-08-04 → 2025-08-18</text>
+  <text x="640" y="447" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="12">95.00 USD</text>
+  <text x="770" y="447" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">3,120.00 USD</text>
+  <!-- Rejected Status Badge -->
+  <rect x="910" y="433" width="86" height="22" rx="11" fill="#7F1D1D" fill-opacity="0.3" stroke="#EF4444" stroke-width="1" />
+  <text x="953" y="448" fill="#F87171" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">✕ Cancelled</text>
+  <text x="1060" y="447" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12">View Details →</text>
+
+  <!-- Technical Overlay HUD: Showing RAP Architecture -->
+  <g transform="translate(44, 520)">
+    <rect width="1112" height="135" rx="8" fill="#0A0E1A" stroke="#0070F2" stroke-width="1.2" stroke-dasharray="6 4" />
+    <text x="20" y="30" fill="#38BDF8" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700">ARCHITECTURE STACK: SAP RAP MANAGED SCENARIO</text>
+    
+    <!-- Step 1 -->
+    <rect x="20" y="45" width="250" height="70" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="32" y="68" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">CDS View Entity</text>
+    <text x="32" y="88" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">ZI_Travel_M &amp; ZI_Booking_M</text>
+    <text x="32" y="104" fill="#38BDF8" font-family="'Inter', sans-serif" font-size="10">Root Composition &amp; Associations</text>
+
+    <!-- Arrow -->
+    <path d="M 280 80 L 305 80" stroke="#0070F2" stroke-width="2" marker-end="url(#arrow)" />
+
+    <!-- Step 2 -->
+    <rect x="315" y="45" width="250" height="70" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="327" y="68" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Behavior Definition</text>
+    <text x="327" y="88" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">BDEF ZI_Travel_M (Managed)</text>
+    <text x="327" y="104" fill="#10B981" font-family="'Inter', sans-serif" font-size="10">Validations, Actions &amp; EML Determinations</text>
+
+    <!-- Arrow -->
+    <path d="M 575 80 L 600 80" stroke="#0070F2" stroke-width="2" />
+
+    <!-- Step 3 -->
+    <rect x="610" y="45" width="250" height="70" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="622" y="68" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Service Binding</text>
+    <text x="622" y="88" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">ZUI_TRAVEL_O4 (OData V4 - UI)</text>
+    <text x="622" y="104" fill="#A855F7" font-family="'Inter', sans-serif" font-size="10">SAP Gateway &amp; Metadata Exposure</text>
+
+    <!-- Arrow -->
+    <path d="M 870 80 L 895 80" stroke="#0070F2" stroke-width="2" />
+
+    <!-- Step 4 -->
+    <rect x="905" y="45" width="190" height="70" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="917" y="68" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Fiori Elements</text>
+    <text x="917" y="88" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">List Report &amp; Object Page</text>
+    <text x="917" y="104" fill="#38BDF8" font-family="'Inter', sans-serif" font-size="10">UI Annotations Driven</text>
+  </g>
+</svg>

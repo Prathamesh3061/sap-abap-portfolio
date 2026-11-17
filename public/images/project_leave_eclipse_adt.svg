@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="adtBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e1e" />
+      <stop offset="100%" stop-color="#141414" />
+    </linearGradient>
+    <linearGradient id="adtTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2d2d2d" />
+      <stop offset="100%" stop-color="#222222" />
+    </linearGradient>
+  </defs>
+
+  <!-- Eclipse Frame Outer -->
+  <rect width="1200" height="700" rx="14" fill="#181818" />
+  <rect x="0.5" y="0.5" width="1199" height="699" rx="13.5" fill="none" stroke="#333333" stroke-width="1" />
+
+  <!-- Eclipse Header Titlebar -->
+  <rect x="0" y="0" width="1200" height="40" fill="url(#adtTop)" />
+  <circle cx="20" cy="20" r="5.5" fill="#EF4444" />
+  <circle cx="38" cy="20" r="5.5" fill="#F59E0B" />
+  <circle cx="56" cy="20" r="5.5" fill="#10B981" />
+  
+  <!-- Eclipse App Identity -->
+  <text x="80" y="24" fill="#CCCCCC" font-family="'Inter', sans-serif" font-size="12" font-weight="600">
+    Eclipse IDE • ABAP Development Tools (ADT) - S4H_100_DEV [Prathamesh Sawant]
+  </text>
+  <rect x="1000" y="8" width="180" height="24" rx="4" fill="#0070F2" fill-opacity="0.2" stroke="#0070F2" stroke-width="0.8" />
+  <text x="1090" y="24" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold" text-anchor="middle">
+    ABAP Cloud Perspective
+  </text>
+
+  <!-- Eclipse Menu & Quick Toolbars -->
+  <rect x="0" y="40" width="1200" height="30" fill="#252526" />
+  <text x="20" y="60" fill="#9CDCFE" font-family="'Inter', sans-serif" font-size="11">File</text>
+  <text x="55" y="60" fill="#CCCCCC" font-family="'Inter', sans-serif" font-size="11">Edit</text>
+  <text x="90" y="60" fill="#CCCCCC" font-family="'Inter', sans-serif" font-size="11">Navigate</text>
+  <text x="150" y="60" fill="#CCCCCC" font-family="'Inter', sans-serif" font-size="11">Search</text>
+  <text x="200" y="60" fill="#CCCCCC" font-family="'Inter', sans-serif" font-size="11">Project</text>
+  <text x="255" y="60" fill="#CCCCCC" font-family="'Inter', sans-serif" font-size="11">Run</text>
+  <text x="290" y="60" fill="#4EC9B0" font-family="'Inter', sans-serif" font-size="11" font-weight="bold">ABAP</text>
+  <text x="335" y="60" fill="#CCCCCC" font-family="'Inter', sans-serif" font-size="11">Window</text>
+
+  <!-- Quick Action Icons Bar -->
+  <rect x="0" y="70" width="1200" height="32" fill="#1f1f1f" stroke="#2d2d2d" stroke-width="0.8" />
+  <g transform="translate(20, 78)">
+    <rect width="20" height="16" rx="2" fill="#0070F2" />
+    <text x="10" y="12" fill="#fff" font-size="9" font-family="'JetBrains Mono', monospace" text-anchor="middle" font-weight="bold">ADT</text>
+    <text x="30" y="13" fill="#D4D4D4" font-family="'Inter', sans-serif" font-size="11">Project: <tspan fill="#38BDF8" font-family="'JetBrains Mono', monospace">Z_EMPLOYEE_LEAVE_MGMT</tspan></text>
+  </g>
+  <g transform="translate(850, 78)">
+    <rect x="0" y="0" width="80" height="18" rx="3" fill="#10B981" fill-opacity="0.2" stroke="#10B981" stroke-width="0.8" />
+    <text x="40" y="13" fill="#34D399" font-size="10" font-family="'JetBrains Mono', monospace" text-anchor="middle">✓ Active (Syntax OK)</text>
+    
+    <rect x="90" y="0" width="80" height="18" rx="3" fill="#0070F2" fill-opacity="0.2" stroke="#0070F2" stroke-width="0.8" />
+    <text x="130" y="13" fill="#38BDF8" font-size="10" font-family="'JetBrains Mono', monospace" text-anchor="middle">Ctrl+F3 Activate</text>
+    
+    <rect x="180" y="0" width="150" height="18" rx="3" fill="#8B5CF6" fill-opacity="0.2" stroke="#8B5CF6" stroke-width="0.8" />
+    <text x="255" y="13" fill="#C4B5FD" font-size="10" font-family="'JetBrains Mono', monospace" text-anchor="middle">Preview Fiori App (F8)</text>
+  </g>
+
+  <!-- Left Sidebar: Project Explorer (280px) -->
+  <rect x="0" y="102" width="280" height="598" fill="#252526" stroke="#1E1E1E" stroke-width="1" />
+  <rect x="0" y="102" width="280" height="26" fill="#2D2D2D" />
+  <text x="15" y="119" fill="#CCCCCC" font-family="'Inter', sans-serif" font-size="11" font-weight="600">PROJECT EXPLORER</text>
+
+  <!-- Tree Items -->
+  <g transform="translate(15, 140)" font-family="'JetBrains Mono', monospace" font-size="11">
+    <!-- Root Project -->
+    <text x="0" y="0" fill="#9CDCFE">▼ S4H_100_DEV [PRATHAMESH]</text>
+    <text x="15" y="20" fill="#CE9178">▼ Favorite Packages</text>
+    <text x="30" y="40" fill="#DCDCAA">▼ Z_EMPLOYEE_LEAVE_MGMT</text>
+    
+    <!-- Core Data Services -->
+    <text x="45" y="62" fill="#4EC9B0">▼ Core Data Services</text>
+    <text x="60" y="82" fill="#D4D4D4">▼ Data Definitions</text>
+    <rect x="70" y="90" width="190" height="20" rx="3" fill="#094771" />
+    <text x="75" y="104" fill="#FFFFFF" font-weight="bold">📄 ZI_EmployeeLeave_M</text>
+    <text x="75" y="126" fill="#9CDCFE">📄 ZI_EmployeeMaster</text>
+    <text x="75" y="146" fill="#9CDCFE">📄 ZC_EmployeeLeave_M</text>
+    
+    <!-- Business Services -->
+    <text x="45" y="172" fill="#4EC9B0">▼ Business Services</text>
+    <text x="60" y="192" fill="#9CDCFE">⚡ Service Definitions: ZUI_LEAVE_O4</text>
+    <text x="60" y="212" fill="#38BDF8">🌐 Service Bindings: ZUI_LEAVE_V4_UI</text>
+
+    <!-- Behavior Definitions -->
+    <text x="45" y="238" fill="#4EC9B0">▼ Behavior Definitions</text>
+    <text x="60" y="258" fill="#CE9178">⚙️ BDEF ZI_EmployeeLeave_M</text>
+
+    <!-- Source Code Classes -->
+    <text x="45" y="284" fill="#4EC9B0">▼ Source Code Classes</text>
+    <text x="60" y="304" fill="#DCDCAA">📦 ZBP_I_EMPLOYEELEAVE_M</text>
+    <text x="75" y="324" fill="#808080">(Behavior Implementation)</text>
+
+    <!-- Database Tables -->
+    <text x="45" y="350" fill="#4EC9B0">▼ Dictionary (DDIC)</text>
+    <text x="60" y="370" fill="#D4D4D4">📊 ZEMP_LEAVE_REQ</text>
+    <text x="60" y="390" fill="#D4D4D4">📊 ZEMP_MASTER</text>
+  </g>
+
+  <!-- Right Area: Editor Tabs -->
+  <rect x="280" y="102" width="920" height="32" fill="#1e1e1e" />
+  
+  <!-- Active Tab: CDS View -->
+  <rect x="280" y="102" width="220" height="32" fill="#1e1e1e" stroke="#0070F2" stroke-width="2" />
+  <circle cx="295" cy="118" r="4" fill="#38BDF8" />
+  <text x="306" y="122" fill="#FFFFFF" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold">ZI_EmployeeLeave_M.ddls</text>
+  <text x="485" y="121" fill="#808080" font-family="'Inter', sans-serif" font-size="11">✕</text>
+
+  <!-- Tab 2: BDEF -->
+  <rect x="502" y="102" width="210" height="32" fill="#2d2d2d" />
+  <text x="518" y="122" fill="#9CDCFE" font-family="'JetBrains Mono', monospace" font-size="11">ZI_EmployeeLeave_M.bdef</text>
+  <text x="695" y="121" fill="#808080" font-family="'Inter', sans-serif" font-size="11">✕</text>
+
+  <!-- Tab 3: Service Binding Preview -->
+  <rect x="714" y="102" width="230" height="32" fill="#2d2d2d" />
+  <text x="730" y="122" fill="#9CDCFE" font-family="'JetBrains Mono', monospace" font-size="11">ZUI_LEAVE_O4 (Service Preview)</text>
+
+  <!-- Main Code Editor Area (Dark Theme / ABAP Cloud Syntax) -->
+  <rect x="280" y="134" width="920" height="566" fill="#1e1e1e" />
+  
+  <!-- Line numbers gutter -->
+  <rect x="280" y="134" width="45" height="566" fill="#1e1e1e" stroke="#2d2d2d" stroke-width="0.5" />
+  <g transform="translate(315, 155)" font-family="'JetBrains Mono', monospace" font-size="11" fill="#858585" text-anchor="end">
+    <text y="0">1</text>
+    <text y="20">2</text>
+    <text y="40">3</text>
+    <text y="60">4</text>
+    <text y="80">5</text>
+    <text y="100">6</text>
+    <text y="120">7</text>
+    <text y="140">8</text>
+    <text y="160">9</text>
+    <text y="180">10</text>
+    <text y="200">11</text>
+    <text y="220">12</text>
+    <text y="240">13</text>
+    <text y="260">14</text>
+    <text y="280">15</text>
+    <text y="300">16</text>
+    <text y="320">17</text>
+    <text y="340">18</text>
+    <text y="360">19</text>
+    <text y="380">20</text>
+  </g>
+
+  <!-- ABAP CDS Code in Editor -->
+  <g transform="translate(340, 155)" font-family="'JetBrains Mono', monospace" font-size="12">
+    <text y="0" fill="#6A9955">@AccessControl.authorizationCheck: #NOT_REQUIRED</text>
+    <text y="20" fill="#6A9955">@EndUserText.label: 'Employee Leave Request Root View Entity'</text>
+    <text y="40" fill="#6A9955">@UI.headerInfo: { typeName: 'Leave Request', typeNamePlural: 'Leave Requests' }</text>
+    <text y="60">
+      <tspan fill="#569CD6">define root view entity</tspan> <tspan fill="#4EC9B0">ZI_EmployeeLeave_M</tspan>
+    </text>
+    <text y="80">
+      <tspan fill="#569CD6">as select from</tspan> <tspan fill="#9CDCFE">zemp_leave_req</tspan> <tspan fill="#569CD6">as</tspan> <tspan fill="#DCDCAA">LeaveReq</tspan>
+    </text>
+    <text y="100">
+      <tspan fill="#C586C0">composition [0..*] of</tspan> <tspan fill="#4EC9B0">ZI_EmployeeLeaveHistory</tspan> <tspan fill="#569CD6">as</tspan> <tspan fill="#9CDCFE">_History</tspan>
+    </text>
+    <text y="120">
+      <tspan fill="#C586C0">association [1..1] to</tspan> <tspan fill="#4EC9B0">ZI_EmployeeMaster</tspan> <tspan fill="#569CD6">as</tspan> <tspan fill="#9CDCFE">_Employee</tspan>
+    </text>
+    <text y="140">
+      <tspan fill="#569CD6">on</tspan> <tspan fill="#9CDCFE">$projection.EmployeeID</tspan> = <tspan fill="#9CDCFE">_Employee.EmployeeID</tspan>
+    </text>
+    <text y="160" fill="#D4D4D4">{</text>
+    <text y="180">
+      <tspan fill="#569CD6">key</tspan> <tspan fill="#9CDCFE">leave_uuid</tspan> <tspan fill="#569CD6">as</tspan> <tspan fill="#4EC9B0">LeaveUUID</tspan>,
+    </text>
+    <text y="200">
+      <tspan fill="#9CDCFE">employee_id</tspan> <tspan fill="#569CD6">as</tspan> <tspan fill="#4EC9B0">EmployeeID</tspan>,
+    </text>
+    <text y="220">
+      <tspan fill="#9CDCFE">leave_type</tspan> <tspan fill="#569CD6">as</tspan> <tspan fill="#4EC9B0">LeaveType</tspan>, <tspan fill="#6A9955">// Sick, Casual, Annual</tspan>
+    </text>
+    <text y="240">
+      <tspan fill="#9CDCFE">start_date</tspan> <tspan fill="#569CD6">as</tspan> <tspan fill="#4EC9B0">StartDate</tspan>,
+    </text>
+    <text y="260">
+      <tspan fill="#9CDCFE">end_date</tspan> <tspan fill="#569CD6">as</tspan> <tspan fill="#4EC9B0">EndDate</tspan>,
+    </text>
+    <text y="280">
+      <tspan fill="#9CDCFE">leave_days</tspan> <tspan fill="#569CD6">as</tspan> <tspan fill="#4EC9B0">TotalDays</tspan>, <tspan fill="#6A9955">// Auto-calculated via Determination</tspan>
+    </text>
+    <text y="300">
+      <tspan fill="#9CDCFE">approval_status</tspan> <tspan fill="#569CD6">as</tspan> <tspan fill="#4EC9B0">ApprovalStatus</tspan>, <tspan fill="#6A9955">// Draft, Submitted, Approved, Rejected</tspan>
+    </text>
+    <text y="320">
+      <tspan fill="#9CDCFE">comments</tspan> <tspan fill="#569CD6">as</tspan> <tspan fill="#4EC9B0">Reason</tspan>,
+    </text>
+    <text y="340">
+      <tspan fill="#9CDCFE">_Employee</tspan>, <tspan fill="#9CDCFE">_History</tspan>
+    </text>
+    <text y="360" fill="#D4D4D4">}</text>
+  </g>
+
+  <!-- Bottom Console / Problems View in Eclipse -->
+  <rect x="280" y="540" width="920" height="160" fill="#181818" stroke="#2d2d2d" stroke-width="1" />
+  <rect x="280" y="540" width="920" height="26" fill="#252526" />
+  <text x="295" y="557" fill="#CCCCCC" font-family="'Inter', sans-serif" font-size="11" font-weight="600">PROBLEMS (0 Errors, 0 Warnings)</text>
+  <text x="510" y="557" fill="#38BDF8" font-family="'Inter', sans-serif" font-size="11">ABAP FEEDBACK</text>
+  <text x="630" y="557" fill="#808080" font-family="'Inter', sans-serif" font-size="11">CONSOLE</text>
+
+  <g transform="translate(295, 580)" font-family="'JetBrains Mono', monospace" font-size="11">
+    <text x="0" y="0" fill="#10B981">✓ Behavior Definition ZI_EmployeeLeave_M validated: managed with draft enabled.</text>
+    <text x="0" y="20" fill="#38BDF8">ℹ Actions defined: 'approveLeave', 'rejectLeave' [instance-feature control active].</text>
+    <text x="0" y="40" fill="#9CDCFE">ℹ Validations attached: 'validateDates', 'checkLeaveBalance' on save.</text>
+    <text x="0" y="60" fill="#C4B5FD">⚡ OData V4 Service Binding 'ZUI_LEAVE_V4_UI' published successfully.</text>
+  </g>
+</svg>
